@@ -11,9 +11,8 @@ public class starter implements InputControl, InputKeyControl
 			
 			// please leave following line alone, necessary for keyboard input
 			KeyController kC = new KeyController(Canvas.getInstance(),new starter());
-		
 			
-		
+			
 		}
 		
 		public void onMouseClick(double x, double y){
