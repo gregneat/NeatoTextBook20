@@ -150,7 +150,12 @@ public class Canvas
 		Thread.currentThread().interrupt();
 	  }
 	}
-    
+	// made by Neato in summer 2019 rework of AREPOS
+	
+    public static int rand(int r) 
+	{
+	  return (int)(Math.random()*r);
+	}
 
     /**
      * Takes a snapshot of the screen, fades it, and sets it as the background.
