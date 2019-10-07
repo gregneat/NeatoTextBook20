@@ -2,9 +2,7 @@ import pkg.*;
 public class starter implements InputControl, InputKeyControl 
 {
 		
-			static int move;
-			static int lil=2;
-			static WilliamCarP4 z;
+
         public static void main(String args[])
         {
 		
@@ -13,21 +11,14 @@ public class starter implements InputControl, InputKeyControl
 			
 			// please leave following line alone, necessary for keyboard input
 			KeyController kC = new KeyController(Canvas.getInstance(),new starter());
-		
-			WilliamCarP4 w = new WilliamCarP4(200,40);
-			w.draw();
 			
-			z = new WilliamCarP4(400,400);
-			z.fill();
-		
+			
 		}
 		
 		public void onMouseClick(double x, double y){
 			// and/or here
-			z.translate(5,0);
+	
 		}
-
-				
 		
 		public void keyPress(String s)
 		{

@@ -111,5 +111,20 @@ public class WilliamCarP4
 			Dot3.draw();
 			Lit.draw();
 		}
-		
+		public void translate(double xx, double yy)
+		{
+			Rod.translate(xx,yy);
+			Win.translate(xx,yy);
+			Cab.translate(xx,yy);
+			Box.translate(xx,yy);
+			Eng.translate(xx,yy);
+			Gril.translate(xx,yy);
+			Mwhl.translate(xx,yy);
+			Rwhl.translate(xx,yy);
+			Fwhl.translate(xx,yy);
+			Dot1.translate(xx,yy);
+			Dot2.translate(xx,yy);
+			Dot3.translate(xx,yy);
+			Lit.translate(xx,yy);
+		}
 }
