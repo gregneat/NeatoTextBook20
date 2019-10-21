@@ -10,6 +10,8 @@ public class starter implements InputControl {
 			MouseController mC = new MouseController(Canvas.getInstance(),new starter());
         danielCar = new DanielCarP2(100,300);
 		danielCar.fill();
+		Emoji duck = new Emoji(200,360,5,5);
+		duck.fill();
 		}
 		
 

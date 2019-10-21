@@ -1,4 +1,4 @@
-import pkg.*;
+package pkg;
 public abstract class Car { 
 	public abstract void fill(); 
 	public abstract void draw(); 
