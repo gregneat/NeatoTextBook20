@@ -12,8 +12,7 @@ public class starter implements InputControl, InputKeyControl
 			// please leave following line alone, necessary for keyboard input
 			KeyController kC = new KeyController(Canvas.getInstance(),new starter());
 			car.fill();
-			System.out.println("X = " + car.getX() + " Y = " + car.getY() + " height = " + car.getHeight() + " width = " + car.getWidth());
-			car.getBoundBox().draw();
+			
 			
 			
 		}

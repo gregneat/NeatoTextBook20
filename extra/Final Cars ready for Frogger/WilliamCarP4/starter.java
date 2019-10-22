@@ -13,7 +13,7 @@ public class starter implements InputControl, InputKeyControl
 			KeyController kC = new KeyController(Canvas.getInstance(),new starter());
 		
 		
-			Car wc = new WilliamCarP4(300,30);
+			wc = new WilliamCarP4(300,30);
 			wc.fill();
 			
 		}

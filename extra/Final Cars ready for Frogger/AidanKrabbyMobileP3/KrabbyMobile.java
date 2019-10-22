@@ -62,7 +62,7 @@ public class KrabbyMobile extends Car
 		  h = 250;
 		  
 		  bound = new Rectangle(xx*f,yy*f,w*f,(h+40)*f);
-		  bound.draw();
+		  // bound.draw();
 		  
 		  
 		  
