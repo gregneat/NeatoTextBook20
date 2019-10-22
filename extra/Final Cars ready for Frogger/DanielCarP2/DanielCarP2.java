@@ -29,7 +29,7 @@ public class DanielCarP2 extends Car {
 		gek = new Rectangle(32,15,10,15);
 		rut = new Ellipse(35,110,40,40);
 		wap = new Ellipse(135,110,40,40);
-		bound = new Rectangle(getX(), getY(), getWidth(), getHeight());
+		bound = new Rectangle(getX(), getY()-15, getWidth(), getHeight());
 	}
 	public DanielCarP2(double x, double y){
 			joe = new Rectangle(x,y,100,100);
