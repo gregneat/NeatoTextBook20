@@ -1,6 +1,7 @@
 import pkg.*;
 
-public class ElmerCarP6{
+public class ElmerCarP6 extends Car{
+	
 	private Rectangle Body;
 	private Rectangle Hood;
 	private Ellipse Wheel;
@@ -8,9 +9,11 @@ public class ElmerCarP6{
 	private Ellipse a;
 	private Ellipse b;
 	private Rectangle Window;
+	private Rectangle boundBox;
 	
 	public ElmerCarP6(double x, double y){
 		//create Car
+		boundBox = new Rectangle(x-5, y, x+50, y+25);
 		Body = new Rectangle(x,y,70,70);
 		Body.setColor(Color.BLUE);
 		Hood = new Rectangle(x,y+40,90,30);
@@ -53,5 +56,22 @@ public class ElmerCarP6{
 		a.translate(deltaX,deltaY);
 		b.translate(deltaX,deltaY);
 		Window.translate(deltaX,deltaY);
+	}
+
+	public double getX(){
+		return boundBox.getX();
+	}
+	public double getY(){
+		return boundBox.getY();
+	}
+	public double getWidth(){
+		return boundBox.getWidth();
+	}
+	public double getHeight(){
+		return boundBox.getHeight();
+	}
+
+	public Rectangle getBoundBox(){
+		return boundBox;
 	}
 }
