@@ -1,7 +1,7 @@
 import pkg.*;
 public class starter implements InputControl, InputKeyControl 
 {
-				public static ArinCarP6 car2;
+				public static Car car2;
 				
         public static void main(String args[])
         {
@@ -9,6 +9,8 @@ public class starter implements InputControl, InputKeyControl
 			// following line is necessary for onMouseClick, don't change
 			MouseController mC = new MouseController(Canvas.getInstance(),new starter());
 			car2 = new ArinCarP6(100 , 0 , 0.75);
+			car2.fill();
+
 		}
 
 		public void onMouseClick(double x, double y){

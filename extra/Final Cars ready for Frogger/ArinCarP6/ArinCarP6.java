@@ -1,26 +1,30 @@
 import pkg.*;
 
-public class ArinCarP6 
+public class ArinCarP6 extends Car
 {
-				public static Rectangle r;
-				public static Ellipse e;
-				public static Ellipse g;
-				public static Ellipse o;
-				public static Ellipse v;
-				public static Rectangle u;
-				public static Rectangle h;
-				public static Ellipse p;
-				public static Rectangle t;
-				public static Ellipse b;
-				public static Ellipse l;
-				public static Ellipse m;
-				public static Ellipse n;
-				public static Rectangle k;
-				public static Rectangle q;
+				static Rectangle r;
+				static Ellipse e;
+				static Ellipse g;
+				static Ellipse o;
+				static Ellipse v;
+				static Rectangle u;
+				static Rectangle h;
+				static Ellipse p;
+				static Rectangle t;
+				static Ellipse b;
+				static Ellipse l;
+				static Ellipse m;
+				static Ellipse n;
+				static Rectangle k;
+				static Rectangle q;
+				static Rectangle BoundBox; 
+    			static double xpos;
+				static double ypos;
+				static double scale;
 				
-				
-        public ArinCarP6(double x , double y , double scale)
+        public ArinCarP6(double x , double y , double factor)
         {
+			scale = factor;
 			r = new Rectangle(x, y + 47 * scale , 200 * scale , 20 * scale);
 			e = new Ellipse(x + 65 * scale , y + 62 * scale , 40 * scale , 40 * scale);
 			g = new Ellipse(x + 105 * scale, y + 62 * scale, 40 * scale, 40 * scale); 
@@ -36,7 +40,11 @@ public class ArinCarP6
 			n = new Ellipse(x + 240 * scale , y + 67 * scale , 30 * scale , 30 * scale);
 			k = new Rectangle(x + 185 * scale , y + 42 * scale , 8 * scale , 4 * scale);
 			q = new Rectangle(x + 210 * scale , y + 7 * scale , 20 * scale , 20 * scale);
-			
+			xpos = x;
+			ypos = y;
+			BoundBox = new Rectangle(x , y , 281 * scale , 102 * scale);
+		}
+		public void fill(){
 			u.fill();
 			r.setColor(Color.GRAY);
 			r.fill();
@@ -62,7 +70,6 @@ public class ArinCarP6
 			k.fill();
 			q.fill();
 		}
-		
 		public void translate(double x, double y){
 			// and/or here
 	        r.translate(x,y);
@@ -80,5 +87,23 @@ public class ArinCarP6
 			k.translate(x,y);
 			q.translate(x,y);
 			u.translate(x, y);
+			BoundBox.translate(x , y);
+			xpos += x;
+			ypos += y;
+		}
+		public double getX(){
+			return xpos;
+		}
+		public double getY(){
+			return ypos;
+		}
+		public double getHeight(){
+			return 102 * scale;
+		}
+		public double getWidth(){
+			return 281 * scale;
+		}
+		public Rectangle getBoundBox(){
+			return BoundBox;
 		}
 }
