@@ -54,7 +54,10 @@ void framedbox(int xcoord, int ycoord, int width, int height, char symbol)
                    }
                    }
 }
-
+int random(int r)
+{
+    return rand()% r + 1;
+}  
 void drawline(int length, int xcoord, int ycoord, char sym);
 //This makes a line
 void drawline(int length, int xcoord, int ycoord, char sym)
