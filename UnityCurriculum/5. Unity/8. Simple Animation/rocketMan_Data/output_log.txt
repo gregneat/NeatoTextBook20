@@ -1,0 +1,23 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6600 Series (ID=0x6758)
+    Vendor:   ATI
+    VRAM:     1008 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.162 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\GPa\Documents\Greg Classes\CP\2018\CPCD18 creation\CPCD18\5. Unity\6. Simple Animation\rocketMan_Data\Managed\System.dll (this message is harmless)
